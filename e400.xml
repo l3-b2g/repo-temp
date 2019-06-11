@@ -31,9 +31,9 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="feherneoh" revision="master">
+  <!--project path="build" name="platform_build" remote="feherneoh" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project-->
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
   <project path="gaia" name="kprkpr/gaia" revision="master" />
   <!--project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/-->
@@ -97,7 +97,7 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/svox" name="CyanogenMod/android_external_svox" />
+  <!--project path="external/svox" name="CyanogenMod/android_external_svox" /-->
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
@@ -143,7 +143,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" />
     <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
+  <!--project path="sourcefix" name="cmtogecko" remote="feherneoh" /-->
   <!--project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" /-->
   <project path="vendor/lge/e400" name="kprkpr/proprietary_vendor_lge400" revision="master" />
   <project path="device/lge/e400" name="kprkpr/device_lge_e400" revision="ffos" />
