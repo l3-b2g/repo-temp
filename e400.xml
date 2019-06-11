@@ -23,7 +23,7 @@
   <remote name="caf" fetch="git://codeaurora.org/" />
 
   <remote name="feherneoh"
-           fetch="git://github.com/feherneoh" />
+           fetch="git://github.com/l3-b2g/" />
 
   <default revision="refs/heads/ics"
            remote="github"
@@ -31,9 +31,9 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <!--project path="build" name="platform_build" remote="feherneoh" revision="master">
+  <project path="build" name="platform_build" remote="feherneoh" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project-->
+  </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
   <project path="gaia" name="kprkpr/gaia" revision="master" />
   <!--project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/-->
