@@ -16,7 +16,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="v1.4"/>
-  <project name="gaia.git" path="gaia" remote="b2g" revision="v1.4"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="v1.4"/>
   <project name="gecko-b2g" path="gecko" remote="b2g" revision="v1.4"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v1.4"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="v1.4"/>
