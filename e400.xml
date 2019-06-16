@@ -6,6 +6,9 @@
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
+<remote name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
   <default remote="linaro" revision="refs/tags/android-4.0.4_r1.2" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
@@ -92,13 +95,13 @@
 
 
  <!-- LG L3 e400 -->
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" />
-    <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" remote="github" />
+    <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
   <!--project path="sourcefix" name="cmtogecko" remote="feherneoh" /-->
   <!--project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" /-->
-  <project path="vendor/lge/e400" name="kprkpr/proprietary_vendor_lge400" revision="master" />
-  <project path="device/lge/e400" name="kprkpr/device_lge_e400" revision="ffos" />
+  <project path="vendor/lge/e400" name="kprkpr/proprietary_vendor_lge400" revision="master" remote="github" />
+  <project path="device/lge/e400" name="kprkpr/device_lge_e400" revision="ffos" remote="github" />
   <project path="kernel/lge/e400" name="CyanogenMod/lge-kernel-e400" remote="github" revision="android-msm-2.6.38" />
 
 </manifest>
