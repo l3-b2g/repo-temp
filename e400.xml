@@ -77,7 +77,7 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="6b7aa7116b42bb4ba3ad7f8e081917f97567f00f"/>
   <project name="platform/external/zlib" path="external/zlib" revision="ed5f309a10069e640f702cf289cc3c67b13e22ea"/>
   <project name="platform/external/yaffs2" path="external/yaffs2" revision="88796e3644c372ae969ae57cf62f80b602eaf894"/>
-  <project path="frameworks/base" name="kprkpr/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="kprkpr/android_frameworks_base" remote="github" revision="ics" />
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="12379cd73b1b21c68eab0220f077d61c4713476d"/>
   <project name="platform/frameworks/support" path="frameworks/support" revision="7379d711d51adab6d22434f1ac2607c40742f0b2"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="f75005b298bc3a4b0c74b28c30abdfec1a2ab625"/>
