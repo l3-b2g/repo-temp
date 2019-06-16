@@ -72,7 +72,7 @@
   <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="3dfbd7dbf1d2cb7c8946149e136a4b5fc86058c5"/>
   <project name="platform/external/tremolo" path="external/tremolo" revision="b07ad545b6e9ef669810ca6c342c4ba503b93983"/>
   <project name="platform/external/webp" path="external/webp" revision="726624358a86c5480e8475fddb1a7a30e6691e9c"/>
-  <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" revison="ics" />
+  <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" revison="ics" remote="github" />
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" revision="6f7a02e2ce1079831f89da22b0a824a9b3ecec4f"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="6b7aa7116b42bb4ba3ad7f8e081917f97567f00f"/>
   <project name="platform/external/zlib" path="external/zlib" revision="ed5f309a10069e640f702cf289cc3c67b13e22ea"/>
