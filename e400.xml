@@ -58,7 +58,7 @@
   <project name="platform/external/libvpx" path="external/libvpx" revision="d25cc1663aaa745791da0ab8c4eea402d8615cce"/>
   <project name="platform/external/mksh" path="external/mksh" revision="62873a8946335b0aa50729e13849afcca2413860"/>
   <project name="platform_external_opensans" path="external/opensans" remote="b2g" revision="v1.4"/>
-  <project name="platform/external/openssl" path="external/openssl" revision="67e21370462692b92627ac9e62203282f5b98941"/>
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="ics" />
   <project name="platform/external/protobuf" path="external/protobuf" revision="f286d1f8d99edef4722eb3cdc94e8e0a85f74d42"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" revision="c16cf258c10798f254b52e1609ff30c00f6448a0"/>
   <project name="screencap-gonk" path="external/screencap-gonk" remote="b2g" revision="v1.4"/>
