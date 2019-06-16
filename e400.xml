@@ -96,7 +96,7 @@
 
  <!-- LG L3 e400 -->
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" remote="github" />
-    <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" />
+    <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="ics" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
   <!--project path="sourcefix" name="cmtogecko" remote="feherneoh" /-->
   <!--project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" /-->
